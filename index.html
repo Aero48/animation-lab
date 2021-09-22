@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #titleEl{
+            font-size: 40pt;
+            font-family: sans-serif;
+            color:#05225C;
+        }
+        #blueBlock{
+            background-color: #05225C;
+            width: 100%;
+            height: 150px;
+        }
+        .purpleEl{
+            position:absolute;
+            margin: 30px;
+            width: 300px;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="titleEl" class="element">Animation Lab</div>
+    <div id="blueBlock" class="element"></div>
+
+    <div class="purpleEl"></div>
+    <div class="purpleEl" style="left:350px;"></div>
+    <div class="purpleEl" style="left:700px;"></div>
+    <div class="purpleEl" style="top:450px;"></div>
+    <div class="purpleEl" style="left:350px; top:450px;"></div>
+    <div class="purpleEl" style="left:700px; top:450px;"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="js/anim.js"></script>
+
+</body>
+</html>
